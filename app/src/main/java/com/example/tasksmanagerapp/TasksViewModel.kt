@@ -13,6 +13,7 @@ class TasksViewModel(context: Context) : ViewModel() {
         listOf(
             Task("Terminar a entrega 2 de mobile", false, TaskCategory.TRABALHO, TaskPriority.ALTA),
             Task("Lavar a moto", false, TaskCategory.ESTUDOS, TaskPriority.MEDIA),
+            Task("nao faltar o racha", false, TaskCategory.ESTUDOS, TaskPriority.MEDIA),
             Task("Ir ve a muie", false, TaskCategory.CASA, TaskPriority.BAIXA)
         )
     )
